@@ -10,7 +10,6 @@ env/
 .env/
 
 # Logs and debug files
-*.log
 
 # OS-specific files
 .DS_Store

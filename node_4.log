@@ -1,0 +1,273 @@
+Node 4 initialized with config: [{'id': 1, 'host': '127.0.0.1', 'port': 8021}, {'id': 2, 'host': '127.0.0.1', 'port': 8022}, {'id': 3, 'host': '127.0.0.1', 'port': 8023}, {'id': 4, 'host': '127.0.0.1', 'port': 8024}, {'id': 5, 'host': '127.0.0.1', 'port': 8025}, {'id': 6, 'host': '127.0.0.1', 'port': 8026}]
+[Node 8024] Listening on 127.0.0.1:8024
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 3
+[NODE 4] 3
+[NODE 4] 4
+[NODE 4] 5
+[NODE 4] 6
+[NODE 4] 7
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 13
+[NODE 4] 13
+[NODE 4] 14
+[NODE 4] 15
+[NODE 4] 16
+[NODE 4] 17
+[NODE 4] 18
+[NODE 4] 19
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 31
+[NODE 4] 31
+[NODE 4] 32
+[NODE 4] 33
+[NODE 4] 34
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 37
+[NODE 4] 37
+[NODE 4] 38
+[NODE 4] 39
+[NODE 4] 40
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 41
+[NODE 4] 41
+[NODE 4] 42
+[NODE 4] 43
+[NODE 4] 44
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 61
+[NODE 4] 61
+[NODE 4] 62
+[NODE 4] 63
+[NODE 4] 64
+[NODE 4] 65
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 69
+[NODE 4] 69
+[NODE 4] 70
+[NODE 4] 71
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 70
+[NODE 4] 72
+[NODE 4] 73
+[NODE 4] 74
+[NODE 4] 75
+[NODE 4] 76
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 82
+[NODE 4] 82
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 86
+[NODE 4] 86
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 94
+[NODE 4] 94
+[NODE 4] 95
+[NODE 4] 96
+[NODE 4] 97
+[NODE 4] 98
+[NODE 4] 99
+[NODE 4] 100
+[NODE 4] 101
+[NODE 4] 102
+[NODE 4] 103
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 109
+[NODE 4] 109
+[NODE 4] 110
+[NODE 4] 111
+[NODE 4] 112
+[NODE 4] 113
+[NODE 4] 114
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 125
+[NODE 4] 125
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 129
+[NODE 4] 129
+[NODE 4] 130
+[NODE 4] 131
+[NODE 4] 132
+[NODE 4] 133
+[NODE 4] 134
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 141
+[ERROR] Attempt 1/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 2/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 3/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Failed to send message to 127.0.0.1:8023 after 3 attempts.
+[Node 4] Failed to send request to node 3: [Errno 61] Connection refused
+[NODE 4] 141
+[NODE 4] 142
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 150
+[NODE 4] 150
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 160
+[NODE 4] 160
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 172
+[NODE 4] 172
+[NODE 4] 173
+[NODE 4] 174
+[NODE 4] 175
+[NODE 4] 176
+[NODE 4] 177
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 180
+[NODE 4] 180
+[NODE 4] 181
+[NODE 4] 182
+[NODE 4] 183
+[NODE 4] 184
+[NODE 4] 185
+[NODE 4] 186
+[NODE 4] 187
+[NODE 4] 188
+[NODE 4] 189
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 186
+[NODE 4] 190
+[NODE 4] 191
+[NODE 4] 192
+[NODE 4] 193
+[NODE 4] 194
+[NODE 4] 195
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 205
+[NODE 4] 205
+[NODE 4] 206
+[NODE 4] 207
+[NODE 4] 208
+[NODE 4] 209
+[NODE 4] 210
+[NODE 4] 211
+[NODE 4] 212
+[NODE 4] 213
+[NODE 4] 214
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 213
+[NODE 4] 215
+[NODE 4] 216
+[NODE 4] 217
+[NODE 4] 218
+[NODE 4] 219
+[NODE 4] 220
+[NODE 4] 221
+[NODE 4] 222
+[NODE 4] 223
+[NODE 4] 224
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 225
+[NODE 4] 225
+[NODE 4] 226
+[NODE 4] 227
+[NODE 4] 228
+[NODE 4] 229
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 233
+[NODE 4] 233
+[NODE 4] 234
+[NODE 4] 235
+[NODE 4] 236
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 241
+[NODE 4] 241
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 245
+[NODE 4] 245
+[NODE 4] 246
+[NODE 4] 247
+[NODE 4] 248
+[NODE 4] 249
+[NODE 4] 250
+[NODE 4] 251
+[NODE 4] 252
+[NODE 4] 253
+[NODE 4] 254
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 255
+[NODE 4] 255
+[NODE 4] 256
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 261
+[NODE 4] 261
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 273
+[NODE 4] 273
+[NODE 4] 274
+[NODE 4] 275
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 274
+[NODE 4] 276
+[NODE 4] 277
+[NODE 4] 278
+[NODE 4] 279
+[NODE 4] 280
+[NODE 4] 281
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 282
+[NODE 4] 282
+[NODE 4] 283
+[NODE 4] 284
+[NODE 4] 285
+[NODE 4] 286
+[NODE 4] 287
+[NODE 4] 288
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 295
+[NODE 4] 295
+[NODE 4] 296
+[NODE 4] 297
+[NODE 4] 298
+[NODE 4] 299
+[NODE 4] 300
+[NODE 4] 301
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 305
+[NODE 4] 305
+[NODE 4] 306
+[NODE 4] 307
+[NODE 4] 308
+[NODE 4] 309
+[NODE 4] 310
+[NODE 4] 311
+[NODE 4] 312
+[NODE 4] 313
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 321
+[NODE 4] 321
+[NODE 4] 322
+[NODE 4] 323
+[NODE 4] 324
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 333
+[NODE 4] 333
+[NODE 4] 334
+[NODE 4] 335
+[NODE 4] 336
+[NODE 4] 337
+[NODE 4] 338
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 341
+[NODE 4] 341
+[NODE 4] 342
+[NODE 4] 343
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 351
+[NODE 4] 351
+[NODE 4] 352
+[NODE 4] 353
+[NODE 4] 354
+[NODE 4] 355
+[NODE 4] 356
+[NODE 4] 357
+[NODE 4] 358
+[NODE 4] 359
+[Node 4] Requesting access
+[Node 4] Requesting access with timestamp 359
+[ERROR] Attempt 1/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Attempt 2/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Attempt 3/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Failed to send message to 127.0.0.1:8022 after 3 attempts.
+[Node 4] Failed to send request to node 2: [Errno 61] Connection refused

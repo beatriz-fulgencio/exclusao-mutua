@@ -1,0 +1,259 @@
+Node 5 initialized with config: [{'id': 1, 'host': '127.0.0.1', 'port': 8021}, {'id': 2, 'host': '127.0.0.1', 'port': 8022}, {'id': 3, 'host': '127.0.0.1', 'port': 8023}, {'id': 4, 'host': '127.0.0.1', 'port': 8024}, {'id': 5, 'host': '127.0.0.1', 'port': 8025}, {'id': 6, 'host': '127.0.0.1', 'port': 8026}]
+[Node 8025] Listening on 127.0.0.1:8025
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 7
+[NODE 5] 7
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 15
+[NODE 5] 15
+[NODE 5] 16
+[NODE 5] 17
+[NODE 5] 18
+[NODE 5] 19
+[NODE 5] 20
+[NODE 5] 21
+[NODE 5] 22
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 25
+[NODE 5] 25
+[NODE 5] 26
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 29
+[NODE 5] 29
+[NODE 5] 30
+[NODE 5] 31
+[NODE 5] 32
+[NODE 5] 33
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 45
+[NODE 5] 45
+[NODE 5] 46
+[NODE 5] 47
+[NODE 5] 48
+[NODE 5] 49
+[NODE 5] 50
+[NODE 5] 51
+[NODE 5] 52
+[NODE 5] 53
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 57
+[NODE 5] 57
+[NODE 5] 58
+[NODE 5] 59
+[NODE 5] 60
+[NODE 5] 61
+[NODE 5] 62
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 78
+[NODE 5] 78
+[NODE 5] 79
+[NODE 5] 80
+[NODE 5] 81
+[NODE 5] 82
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 90
+[NODE 5] 90
+[NODE 5] 91
+[NODE 5] 92
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 117
+[NODE 5] 117
+[NODE 5] 118
+[NODE 5] 119
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 123
+[NODE 5] 123
+[NODE 5] 124
+[NODE 5] 125
+[NODE 5] 126
+[NODE 5] 127
+[NODE 5] 128
+[NODE 5] 129
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 133
+[NODE 5] 133
+[NODE 5] 134
+[NODE 5] 135
+[NODE 5] 136
+[NODE 5] 137
+[NODE 5] 138
+[NODE 5] 139
+[NODE 5] 140
+[NODE 5] 141
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 147
+[ERROR] Attempt 1/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 2/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 3/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Failed to send message to 127.0.0.1:8023 after 3 attempts.
+[Node 5] Failed to send request to node 3: [Errno 61] Connection refused
+[NODE 5] 147
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 154
+[NODE 5] 154
+[NODE 5] 155
+[NODE 5] 156
+[NODE 5] 157
+[NODE 5] 158
+[NODE 5] 159
+[NODE 5] 160
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 166
+[NODE 5] 166
+[NODE 5] 167
+[NODE 5] 168
+[NODE 5] 169
+[NODE 5] 170
+[NODE 5] 171
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 174
+[NODE 5] 174
+[NODE 5] 175
+[NODE 5] 176
+[NODE 5] 177
+[NODE 5] 178
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 182
+[NODE 5] 182
+[NODE 5] 183
+[NODE 5] 184
+[NODE 5] 185
+[NODE 5] 186
+[NODE 5] 187
+[NODE 5] 188
+[NODE 5] 189
+[NODE 5] 190
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 193
+[NODE 5] 193
+[NODE 5] 194
+[NODE 5] 195
+[NODE 5] 196
+[NODE 5] 197
+[NODE 5] 198
+[NODE 5] 199
+[NODE 5] 200
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 199
+[NODE 5] 201
+[NODE 5] 202
+[NODE 5] 203
+[NODE 5] 204
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 203
+[NODE 5] 205
+[NODE 5] 206
+[NODE 5] 207
+[NODE 5] 208
+[NODE 5] 209
+[NODE 5] 210
+[NODE 5] 211
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 211
+[NODE 5] 212
+[NODE 5] 213
+[NODE 5] 214
+[NODE 5] 215
+[NODE 5] 216
+[NODE 5] 217
+[NODE 5] 218
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 221
+[NODE 5] 221
+[NODE 5] 222
+[NODE 5] 223
+[NODE 5] 224
+[NODE 5] 225
+[NODE 5] 226
+[NODE 5] 227
+[NODE 5] 228
+[NODE 5] 229
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 235
+[NODE 5] 235
+[NODE 5] 236
+[NODE 5] 237
+[NODE 5] 238
+[NODE 5] 239
+[NODE 5] 240
+[NODE 5] 241
+[NODE 5] 242
+[NODE 5] 243
+[NODE 5] 244
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 253
+[NODE 5] 253
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 259
+[NODE 5] 259
+[NODE 5] 260
+[NODE 5] 261
+[NODE 5] 262
+[NODE 5] 263
+[NODE 5] 264
+[NODE 5] 265
+[NODE 5] 266
+[NODE 5] 267
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 269
+[NODE 5] 269
+[NODE 5] 270
+[NODE 5] 271
+[NODE 5] 272
+[NODE 5] 273
+[NODE 5] 274
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 278
+[NODE 5] 278
+[NODE 5] 279
+[NODE 5] 280
+[NODE 5] 281
+[NODE 5] 282
+[NODE 5] 283
+[NODE 5] 284
+[NODE 5] 285
+[NODE 5] 286
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 293
+[NODE 5] 293
+[NODE 5] 294
+[NODE 5] 295
+[NODE 5] 296
+[NODE 5] 297
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 301
+[NODE 5] 301
+[NODE 5] 302
+[NODE 5] 303
+[NODE 5] 304
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 307
+[NODE 5] 307
+[NODE 5] 308
+[NODE 5] 309
+[NODE 5] 310
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 317
+[NODE 5] 317
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 329
+[NODE 5] 329
+[NODE 5] 330
+[NODE 5] 331
+[NODE 5] 332
+[NODE 5] 333
+[NODE 5] 334
+[NODE 5] 335
+[NODE 5] 336
+[NODE 5] 337
+[NODE 5] 338
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 339
+[NODE 5] 339
+[NODE 5] 340
+[NODE 5] 341
+[NODE 5] 342
+[NODE 5] 343
+[NODE 5] 344
+[Node 5] Requesting access
+[Node 5] Requesting access with timestamp 343

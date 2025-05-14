@@ -1,0 +1,239 @@
+Node 6 initialized with config: [{'id': 1, 'host': '127.0.0.1', 'port': 8021}, {'id': 2, 'host': '127.0.0.1', 'port': 8022}, {'id': 3, 'host': '127.0.0.1', 'port': 8023}, {'id': 4, 'host': '127.0.0.1', 'port': 8024}, {'id': 5, 'host': '127.0.0.1', 'port': 8025}, {'id': 6, 'host': '127.0.0.1', 'port': 8026}]
+[Node 8026] Listening on 127.0.0.1:8026
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 11
+[NODE 6] 11
+[NODE 6] 12
+[NODE 6] 13
+[NODE 6] 14
+[NODE 6] 15
+[NODE 6] 16
+[NODE 6] 17
+[NODE 6] 18
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 23
+[NODE 6] 23
+[NODE 6] 24
+[NODE 6] 25
+[NODE 6] 26
+[NODE 6] 27
+[NODE 6] 28
+[NODE 6] 29
+[NODE 6] 30
+[NODE 6] 31
+[NODE 6] 32
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 39
+[NODE 6] 39
+[NODE 6] 40
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 47
+[NODE 6] 47
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 53
+[NODE 6] 53
+[NODE 6] 54
+[NODE 6] 55
+[NODE 6] 56
+[NODE 6] 57
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 59
+[NODE 6] 59
+[NODE 6] 60
+[NODE 6] 61
+[NODE 6] 62
+[NODE 6] 63
+[NODE 6] 64
+[NODE 6] 65
+[NODE 6] 66
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 76
+[NODE 6] 76
+[NODE 6] 77
+[NODE 6] 78
+[NODE 6] 79
+[NODE 6] 80
+[NODE 6] 81
+[NODE 6] 82
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 98
+[NODE 6] 98
+[NODE 6] 99
+[NODE 6] 100
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 104
+[NODE 6] 104
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 111
+[NODE 6] 111
+[NODE 6] 112
+[NODE 6] 113
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 127
+[NODE 6] 127
+[NODE 6] 128
+[NODE 6] 129
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 131
+[NODE 6] 131
+[NODE 6] 132
+[NODE 6] 133
+[NODE 6] 134
+[NODE 6] 135
+[NODE 6] 136
+[NODE 6] 137
+[NODE 6] 138
+[NODE 6] 139
+[NODE 6] 140
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 147
+[ERROR] Attempt 1/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 2/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Attempt 3/3 — Could not send to 127.0.0.1:8023 — [Errno 61] Connection refused
+[ERROR] Failed to send message to 127.0.0.1:8023 after 3 attempts.
+[Node 6] Failed to send request to node 3: [Errno 61] Connection refused
+[NODE 6] 147
+[NODE 6] 148
+[NODE 6] 149
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 156
+[NODE 6] 156
+[NODE 6] 157
+[NODE 6] 158
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 162
+[NODE 6] 162
+[NODE 6] 163
+[NODE 6] 164
+[NODE 6] 165
+[NODE 6] 166
+[NODE 6] 167
+[NODE 6] 168
+[NODE 6] 169
+[NODE 6] 170
+[NODE 6] 171
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 176
+[NODE 6] 176
+[NODE 6] 177
+[NODE 6] 178
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 184
+[NODE 6] 184
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 191
+[NODE 6] 191
+[NODE 6] 192
+[NODE 6] 193
+[NODE 6] 194
+[NODE 6] 195
+[NODE 6] 196
+[NODE 6] 197
+[NODE 6] 198
+[NODE 6] 199
+[NODE 6] 200
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 201
+[NODE 6] 201
+[NODE 6] 202
+[NODE 6] 203
+[NODE 6] 204
+[NODE 6] 205
+[NODE 6] 206
+[NODE 6] 207
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 209
+[NODE 6] 209
+[NODE 6] 210
+[NODE 6] 211
+[NODE 6] 212
+[NODE 6] 213
+[NODE 6] 214
+[NODE 6] 215
+[NODE 6] 216
+[NODE 6] 217
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 219
+[NODE 6] 219
+[NODE 6] 220
+[NODE 6] 221
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 227
+[NODE 6] 227
+[NODE 6] 228
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 239
+[NODE 6] 239
+[NODE 6] 240
+[NODE 6] 241
+[NODE 6] 242
+[NODE 6] 243
+[NODE 6] 244
+[NODE 6] 245
+[NODE 6] 246
+[NODE 6] 247
+[NODE 6] 248
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 249
+[NODE 6] 249
+[NODE 6] 250
+[NODE 6] 251
+[NODE 6] 252
+[NODE 6] 253
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 267
+[NODE 6] 267
+[NODE 6] 268
+[NODE 6] 269
+[NODE 6] 270
+[NODE 6] 271
+[NODE 6] 272
+[NODE 6] 273
+[NODE 6] 274
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 291
+[NODE 6] 291
+[NODE 6] 292
+[NODE 6] 293
+[NODE 6] 294
+[NODE 6] 295
+[NODE 6] 296
+[NODE 6] 297
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 303
+[NODE 6] 303
+[NODE 6] 304
+[NODE 6] 305
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 323
+[NODE 6] 323
+[NODE 6] 324
+[NODE 6] 325
+[NODE 6] 326
+[NODE 6] 327
+[NODE 6] 328
+[NODE 6] 329
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 331
+[NODE 6] 331
+[NODE 6] 332
+[NODE 6] 333
+[NODE 6] 334
+[NODE 6] 335
+[NODE 6] 336
+[NODE 6] 337
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 349
+[NODE 6] 349
+[NODE 6] 350
+[NODE 6] 351
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 355
+[NODE 6] 355
+[Node 6] Requesting access
+[Node 6] Requesting access with timestamp 359
+[ERROR] Attempt 1/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Attempt 2/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Attempt 3/3 — Could not send to 127.0.0.1:8022 — [Errno 61] Connection refused
+[ERROR] Failed to send message to 127.0.0.1:8022 after 3 attempts.
+[Node 6] Failed to send request to node 2: [Errno 61] Connection refused
