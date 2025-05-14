@@ -65,8 +65,12 @@ class Node:
             target_id (int): The ID of the node to send the message to.        
         """
         # Send an "ok" message to the specified node
-        node = next(n for n in self.nodes if n["id"] == target_id)
-        send_message(node["host"], node["port"], {"type": "ok", "id": self.node_id})
+        node = next((n for n in self.nodes if n["id"] == target_id), None)
+        if node:
+            try:
+                send_message(node["host"], node["port"], {"type": "ok", "id": self.node_id})
+            except Exception as e:
+                print(f"[Node {self.node_id}] Failed to send OK to node {target_id}: {e}", flush=True)
 
     def request_cs(self):
         """
@@ -76,9 +80,12 @@ class Node:
         ts = self.ricart.request_access()
         self.last_timestamp = max(self.last_timestamp, ts)
         for n in self.nodes:
-            if n["id"] != self.node_id:
-                # Send a request message to all other nodes
-                send_message(n["host"], n["port"], {"type": "request", "timestamp": ts, "id": self.node_id})
+            if n["id"] != self.node_id and n["id"] not in self.ricart.failed_nodes:
+                try:
+                    send_message(n["host"], n["port"], {"type": "request", "timestamp": ts, "id": self.node_id})
+                except Exception as e:
+                    print(f"[Node {self.node_id}] Failed to send request to node {n['id']}: {e}", flush=True)
+                    self.ricart.failed_nodes.add(n["id"])
 
     def run(self):
         """
@@ -89,26 +96,17 @@ class Node:
         """
         # Main loop for the node
         while True:
-            time.sleep(2)  # Wait for a random interval
+            time.sleep(2)
             if random_access_decision():
-                # Decide whether to request access to the critical section
+                print(f"[Node {self.node_id}] Requesting access", flush=True)
                 self.request_cs()
-                while not self.ricart.can_enter_cs():
-                    # Wait until access to the critical section is granted
-                    time.sleep(0.1)
-                try:
-                    # Perform operations in the critical section
-                    k = random_sequence_length()
-                    print_sequence(self.last_timestamp, k, self.node_id)
-                    self.last_timestamp += k
-                    # Release access to the critical section
-                    deferred = self.ricart.release_access()
-                    for pid in deferred:
-                        # Send "ok" messages to deferred requests
-                        self.send_ok(pid)
-                except Exception as e:
-                    # Handle any errors in the critical section
-                    print("Error in critical section:", e)
+                self.ricart.wait_for_ok_responses(timeout=3)
+                k = random_sequence_length()
+                print_sequence(self.last_timestamp, k, self.node_id)
+                self.last_timestamp += k
+                deferred = self.ricart.release_access()
+                for pid in deferred:
+                    self.send_ok(pid)
 
 if __name__ == "__main__":
     # Entry point for the script

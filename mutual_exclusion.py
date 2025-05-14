@@ -16,6 +16,8 @@ class RicartAgrawala:
         self.deferred_replies = []  # List of nodes whose replies are deferred
         self.ok_received = set()  # Set of nodes from which OK messages have been received
         self.lock = threading.RLock()  # Reentrant lock for thread safety
+        self.failed_nodes = set()
+        
 
     def increment_clock(self):
         """
@@ -83,6 +85,24 @@ class RicartAgrawala:
         """
         with self.lock:
             return len(self.ok_received) == len(self.nodes) - 1
+
+    def wait_for_ok_responses(self, timeout=3):
+        import time
+        start_time = time.time()
+        while True:
+            with self.lock:
+                expected = [n["id"] for n in self.nodes if n["id"] != self.node_id and n["id"] not in self.failed_nodes]
+                if all(pid in self.ok_received for pid in expected):
+                    return True
+            if time.time() - start_time > timeout:
+                with self.lock:
+                    for n in self.nodes:
+                        if n["id"] != self.node_id and n["id"] not in self.ok_received:
+                            self.failed_nodes.add(n["id"])
+                            print(f"[Node {self.node_id}] Timeout: assuming node {n['id']} has failed", flush=True)
+                return True
+            time.sleep(0.1)
+
 
     def release_access(self):
         """
