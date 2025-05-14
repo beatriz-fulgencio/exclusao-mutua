@@ -1,4 +1,5 @@
 # Distributed Print System - Exclusão Mútua
+Relatório em [Relatório Técnico](relatorio.md)
 
 ## Requisitos
 - Python 3.8+
