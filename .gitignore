@@ -28,5 +28,4 @@ build/
 # Config and environment files
 *.env
 *.config
-*.json
 
